@@ -15,6 +15,7 @@
 
 .logo {
     width: 50px;
+    height: 50px;
 }
 
 nav ul {
@@ -48,6 +49,7 @@ nav a:hover {
     align-items: center;
     padding: 20px;
     background-color: #f0f0f0;
+    margin-top: 50%;
 }
 
 .our-socials {
@@ -67,8 +69,8 @@ nav a:hover {
 }
 
 .social-button img {
-    width: 24px;
-    height: 24px;
+    width: 74px;
+    height: 74px;
     margin-right: 10px;}
 
 .newsletter {
@@ -87,4 +89,52 @@ nav a:hover {
 .contact-info {
     flex: 1;
     text-align: right;
+}
+.content_Area{
+    text-align: center;
+    color: #ff9900;
+    text-decoration: underline;
+    font-style: 'Segoe UI', sans-serif;
+    margin-top: 60px;
+    
+    
+}
+.c-head{
+    font-style: 'Segoe UI', sans-serif;
+    font-size: large;
+}
+.container_line_box{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.box-1{
+    background-color: aqua;
+}
+.box-2{
+    background-color: aqua;
+}
+.box-3{
+    background-color: aqua;
+}
+
+.container_area{
+    margin-top: 60px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    text-decoration: #333;
+    border: 1px solid orangered;
+    
+}
+.ab_container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #ff9900;
 }
