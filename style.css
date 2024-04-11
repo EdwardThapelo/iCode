@@ -1,0 +1,190 @@
+/* Resetting default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Outfit:wght@100..900&family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .logo{
+    width:70px;
+    margin:auto;
+    
+  }
+  
+  nav {
+    background-color: #333; /* Dark gray */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Darker gray on hover */
+  }
+  
+  /* Adding some styles for a more beautiful navbar */
+  nav {
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #666; /* Slightly darker gray on hover */
+  }
+  
+
+  .cards-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    color: #666; /* Gray text color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .carousel {
+    position: relative;
+    max-width: 100%; 
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    background-size: cover;
+  }
+  
+  .slide1 {
+    background-image: url(./assets/bg1.jpg);
+  }
+  
+  .slide2 {
+    background-image: url(./assets/bg1.jpg);
+  }
+  
+  .slide3 {
+    background-image: url(./assets/bg1.jpg);
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .navigation label {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #999;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #333;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
